@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @MainActor
-class PokemonViewModel:ObservableObject{
+class PokemonViewModel{
     
     private var context:NSManagedObjectContext {
         return (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
